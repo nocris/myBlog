@@ -50,7 +50,7 @@
 
 // on utilise pas les px pour les widths
 // quand on veut centrer : pas de px 
-// si on veut quelque chose d'immobile en px (ex. sur un slider)
+// si on veut quelque chose d'immobile en px (ex. sur un slider), pour la position absolute par exemple
 // les rem (unités de mesure pour le responsive) 
 
 
