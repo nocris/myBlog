@@ -48,5 +48,10 @@
 //l'id aura toujours la priorité
 // quand on doit surcoucher (sans toucher à des id par exemple), important peut sauver la mise 
 
+// on utilise pas les px pour les widths
+// quand on veut centrer : pas de px 
+// si on veut quelque chose d'immobile en px (ex. sur un slider)
+// les rem (unités de mesure pour le responsive) 
+
 
 // utilisation de tailwind et saas dans les projets pour plus tard 
