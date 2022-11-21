@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="en"><!-- utile pour les pages recommandées-->
-    <head>
-        <meta charset="UTF-8"> <!-- pour l'affichage de certains caractères-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- pour supporter des vieilles versions de navigateurs-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- pour gérer l'affichage notamment mobile-->
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title><!-- utile pour le SEO-->
-    </head>
-    <body>
+<html lang="en">
+<!-- utile pour les pages recommandées-->
+
+<head>
+    <meta charset="UTF-8"> <!-- pour l'affichage de certains caractères-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- pour supporter des vieilles versions de navigateurs-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pour gérer l'affichage notamment mobile-->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title><!-- utile pour le SEO-->
+</head>
+
+<body>
+    <section>
         <div class="page">
-            <nav class="navbarBack"> 
+            <nav class="navbarBack">
                 <div>
                     <ul class="menu">
-                        <li><img id="logoLittle"src="/assets/logo.png" alt="logo"></li>
-                        <li class="accueil"><a class="nav" href="#">Accueil</a></li>
-                        <li class="cours"><a class="nav" href="#">Cours</a></li>
-                        <li class="blog"><a class="nav" href="#">Blog</a></li>
-                        <li class="newsletter"><a class="nav" href="#">Newsletter</a></li>
+                        <li class="logoLittle"><img id="logoLittle" src="/assets/logo.png" alt="logo"></li>
+                        <li class="buttonContainer"><a class="navButton" href="#">Accueil</a></li>
+                        <li class="buttonContainer"><a class="navButton" href="/courses.html">Cours</a></li>
+                        <li class="buttonContainer"><a class="navButton" href="#">Blog</a></li>
+                        <li class="buttonContainer"><a class="navButton" href="#">Newsletter</a></li>
                     </ul>
                 </div>
             </nav>
+
             <div class="centerLogo">
-                <img id="logoBig"src="/assets/logo.png" alt="logo">
+                <img id="logoBig" src="/assets/logo.png" alt="logo">
             </div>
             <div>
                 <h2>La plateforme d'apprentissage du code</h2>
@@ -31,21 +37,216 @@
                 <h3>Apprenez la programmation et le métier de dev grâce à nos cours et nos ressources</h3>
             </div>
             <div class="buttonCoursDiv">
-                <button class="buttonCours" type="button">Découvrez nos cours</button>
+                <button class="buttonCours" type="button">Découvrez nos cours 🎒</button>
+                <a href="#leCours"><img class="arrow-down" src="/assets/arrow-down.png" alt=""></a>
             </div>
+    </section>
+    </div>
 
+    <!--- ************* TERMINALE ************** --->
 
-
-
-
-
-
-
-
-
-
-
+    <section class="section2">
+        <div class="apprendre">
+            <h1>Apprendre, découvrir, expérimenter.</h1>
         </div>
-    </body>
-    <footer></footer>
+        <div class="terminal">
+            <div class="terminalUpper">
+                <p class="terminalTitle">Terminal</p>
+                <div class="terminalRounds">
+                    <div class="terminalRound tRoundGreen"></div>
+                    <div class="terminalRound tRoundYellow"></div>
+                    <div class="terminalRound tRoundRed"></div>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec metus tristique, sodales massa
+                vitae, dictum augue. <br />Duis vitae sem neque. Curabitur in nulla sed purus maximus sodales sit amet
+                sed nisl. Vestibulum metus augue, rhoncus quis faucibus id, pulvinar in risus. Duis hendrerit rutrum
+                magna, sed commodo nisl mattis ac. Morbi odio libero, volutpat vitae efficitur nec, porta ut augue.
+                Pellentesque nunc felis, venenatis sit amet tristique sed, pretium vitae ante. Vivamus posuere, mauris
+                id auctor fermentum, ipsum arcu placerat lectus, a vehicula est nisi sed arcu. Vestibulum commodo urna
+                fringilla, venenatis risus eu, aliquet mi.<br />Duis vitae sem neque. Curabitur in nulla sed purus
+                maximus sodales sit amet sed nisl. Vestibulum metus augue, rhoncus quis faucibus id, pulvinar in risus.
+                Duis hendrerit rutrum magna, sed commodo nisl mattis ac.</p>
+            <div class="terminalLower"></div>
+        </div>
+    </section>
+
+    <!--- ************* COURS ************** --->
+
+    <section class="section3">
+        <div id="leCours">
+            <h1>Le Cours</h1>
+        </div>
+        <div>
+            <h3>Un abonnement unique</h3>
+        </div>
+        <div class="rectangles">
+            <div class="rectangleUp">
+                <img class="insideRectimg" id="insideRectImg" src="/assets/img1.png" alt="">
+                <div class="insideRect">
+                    <div class="titleRect">Maîtrisez SQL et MySQL</div>
+                    <div class="textRect">Les Bases de données relationnelles sont incontournables pour les devs web
+                    </div>
+                </div>
+            </div>
+            <div class="rectangleUp">
+                <img class="insideRectimg" id="insideRectImg" src="/assets/img2.png" alt="">
+                <div class="insideRect">
+                    <div class="titleRect">Maîtrisez SQL et MySQL</div>
+                    <div class="textRect">Les Bases de données relationnelles sont incontournables pour les devs web
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rectangles">
+            <div class="rectangleDown">
+                <img class="insideRectimg" id="insideRectImg" src="/assets/img3.png" alt="">
+                <div class="insideRect">
+                    <div class="titleRect">Maîtrisez SQL et MySQL</div>
+                    <div class="textRect">Les Bases de données relationnelles sont incontournables pour les devs web
+                    </div>
+                </div>
+            </div>
+            <div class="rectangleDown">
+                <img class="insideRectimg" id="insideRectImg" src="/assets/img4.png" alt="">
+                <div class="insideRect">
+                    <div class="titleRect">Maîtrisez SQL et MySQL</div>
+                    <div class="textRect">Les Bases de données relationnelles sont incontournables pour les devs web
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lesCoursButton">
+            <button class="lesCoursButton" type="button">Voir tous les cours</button>
+        </div>
+    </section>
+
+    <!--- ************* RESSOURCES ************* --->
+
+    <section class="section2">
+        <div><br>
+            <h1>Les Ressources</h1>
+            <h3>Gratuites</h3>
+        </div>
+        <div class="logos">
+            <div class="parent-logo-mail">
+                <img class="logo-mail" src="/assets/logo-mail.svg" alt="">
+                <h4>Newsletter > </h4>
+                <h5>Toutes les semaines</h5>
+
+            </div>
+            <div class="parent-logo-journal">
+                <img class="logo-journal" src="/assets/logo-journal.svg" alt="">
+                <h4>Blog > </h4>
+                <h5>350+ articles</h5>
+            </div>
+            <div class="parent-logo-mic">
+                <img class="logo-mic" src="/assets/logo-mic.svg" alt="">
+                <h4>Podcast > </h4>
+                <h5>30+ épisodes</h5>
+            </div>
+            <div class="parent-logo-video">
+                <img class="logo-video" src="/assets/logo-video.svg" alt="">
+                <h4>Vidéos > </h4>
+                <h5>Découvrez Codeflix</h5>
+            </div>
+        </div><br>
+    </section>
+
+    <!--- ************* BLOG ************* --->
+
+    <section class="section4">
+        <div id="leCours">
+            <h1>Le Blog</h1>
+        </div>
+
+
+
+        <div class="wrap">
+            <div id="arrow-left" class="arrow2"></div>
+            <div id="slider">
+              <div class="slide slide1">
+                <div class="slide-content">
+                  <span>Image One</span>
+                </div>
+              </div>
+              <div class="slide slide2">
+                <div class="slide-content">
+                  <span>Image Two</span>
+                </div>
+              </div>
+              <div class="slide slide3">
+                <div class="slide-content">
+                  <span>Image Three</span>
+                </div>
+              </div>
+            </div>
+            <div id="arrow-right" class="arrow2"></div>
+          </div>
+
+
+
+        <div class="le-cours-text">
+            <h4>Découvrir de nouveaux sujets, de nouvelles technologies, mettre en place une veille et s'améliorer de
+                jour ne devrait être ni compliqué, ni payant.</h4>
+            <h4>Voilà pourquoi notre blog estest mis à jour chaque semaine !</h4>
+        </div>
+        <div class="le-blog-button">
+            <button class="le-blog-button" type="button">Voir tous les cours</button>
+        </div>
+        <p class="petit">
+            <small>+ de 12 000 lecteurs/mois</small>
+        </p>
+        <br>
+        </div>
+        </div>
+    </section>
+
+    <!--- ************* FOOTER ************* --->
+
+    <footer>
+        <img src="./assets/logo.png" alt="logo" class="footer_logo" />
+
+        <div class="footer_copy">
+            <ul>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Nous conctater</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_liens">
+            <ul>
+                <li><a href="#">Les 4 axes d'apprentissage d'un dev</a></li>
+                <li><a href="#">Les outils pour visualiser du JSON en graphe</a></li>
+                <li>
+                    <a href="#">Préparer les tâches pour intégrer un dev junior</a>
+                </li>
+                <li>
+                    <a href="#">Préparer les tâches pour intégrer un dev junior</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer_media">
+            <div class="footer_media_soc">
+                <a href="#"><img src="./assets/youtube.png" alt="" /></a>
+                <a href="#"><img src="./assets/twitter.png" alt="" /></a>
+                <a href="#"><img src="./assets/linkedin.png" alt="" /></a>
+                <a href="#"><img src="./assets/twitch.png" alt="" /></a>
+            </div>
+            <form class="footer_newsletter">
+                <label for="newsletter">S'abonner à la newsletter</label>
+                <div>
+                    <input type="email" name="newsletter" id="newsletter" placeholder="Email"
+                        class="footer_newsletter-input" />
+                    <input type="button" value="S'incrire" class="footer_newsletter-btn" />
+                </div>
+            </form>
+        </div>
+    </footer>
+    <script src="cours.js"></script>
+</body>
+
 </html>

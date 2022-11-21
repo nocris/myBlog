@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="application.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;myBlog&gt; Nos cours</title>
+    <script src="/pageCourses.js" defer></script>
+</head>
+<body>
+    <header>
+      <div class="header-container">
+        <img class="button-burger" src="./assets/menu.png" />
+        <div class="header__left">
+          <div class="logo">
+            <img src="./assets/coding-white.png" alt="Logo de myBlog.">
+            <h1>&lt;myBlog&gt;</h1>
+          </div>
+          <nav>
+            <a class="cours" href="">Cours</a>
+          </nav>
+        </div>
+        <div class="header__right">
+          <button>Se connecter</button>
+        </div>
+      </div>
+    </header>
+    <aside>
+      <ul>
+          <li><button href="/login.html">Se connecter</button></li>
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a class="cours" href="">Cours</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Newsletter</a></li>
+      </ul>
+    </aside>
+    <section class="complets" >
+        <div class="complets-container">
+            <div class="complets-description">
+                <h1>Nos cours complets</h1>
+                <p>Montez en compétence, développez une expertise et faites passer votre profil de dev de zéro à héro(ïne) !</p>
+                <button class="complets-button">J'accède aux cours (19,99€/mois)</button>
+            </div>
+            <div class="complets-checklist">
+                <img src="./assets/checklist.png" alt="" class="checklist-image">
+                <div class="checklist-container">
+                    <div class="checklist-title"><h1>Accès aux cours</h1></div>
+                    <div class="checklist-price"><h1>19,99€</h1><p>par mois</p></div>
+                    <div class="checklist-list">
+                        <ul>
+                            <li style="list-style-image:url('./assets/checked.png')" >
+                                Accès à toutes les formations
+                            </li>
+                            <li style="list-style-image:url('./assets/checked.png')" >
+                                Exercices et ressources inclus
+                            </li>
+                            <li style="list-style-image:url('./assets/checked.png')" >
+                                Versions texte et audio
+                            </li>
+                            <li style="list-style-image:url('./assets/checked.png')" >
+                                Accès aux contenus anticipés
+                            </li>
+                            <li style="list-style-image:url('./assets/checked.png')" >
+                                Sans engagement
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="checklist-flavor">
+                        <p>L'équivalent du prix de deux menus Burger !</p>
+                        <img src="./assets/hamburger.png" alt="Un burger.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="disponibles">
+        <div class="disponibles-container">
+            <h1 class="disponibles-titre">Nos cours disponibles</h1>
+            <button class="disponibles-button">J'accède aux cours (19.99€/mois)</button>
+            <div class="disponibles-exemples-container">
+                <div class="disponibles-exemple">
+                    <img src="./assets/maitrisersql.png" alt="Images de présentation.">
+                    <div class="exemple-texte">
+                        <h1>SQL et MySQL</h1>
+                        <p>Base de données</p>
+                        <p>Aprennez tout ce qu'il y a à savoir sur les bases de données relationnelles</p>
+                    </div>
+                    <button class="voir-le-cours">Voir le cours</button>
+                </div>
+                <div class="disponibles-exemple" name="dio">
+                    <img src="./assets/jobdev.png" alt="Images de sqlprésentation.">
+                    <div class="exemple-texte">
+                        <h1>SQL et MySQL</h1>
+                        <p>Base de données</p>
+                        <p>Aprennez tout ce qu'il y a à savoir sur les bases de données relationnelles</p>
+                    </div>
+                    <button class="voir-le-cours">Voir le cours</button>
+                </div>
+                <div class="disponibles-exemple">
+                    <img src="./assets/gitgithub.png" alt="Images de présentation.">
+                    <div class="exemple-texte">
+                        <h1>SQL et MySQL</h1>
+                        <p>Base de données</p>
+                        <p>Aprennez tout ce qu'il y a à savoir sur les bases de données relationnelles</p>
+                    </div>
+                    <button class="voir-le-cours">Voir le cours</button>
+                </div>
+                <div class="disponibles-exemple">
+                    <img src="./assets/devfreelance.png" alt="Images de présentation.">
+                    <div class="exemple-texte">
+                        <h1>SQL et MySQL</h1>
+                        <p>Base de données</p>
+                        <p>Aprennez tout ce qu'il y a à savoir sur les bases de données relationnelles</p>
+                    </div>
+                    <button class="voir-le-cours">Voir le cours</button>
+                </div>
+                <div class="disponibles-exemple">
+                    <img src="./assets/anglais.png" alt="Images de présentation.">
+                    <h1>SQL et MySQL</h1>
+                    <p>Base de données</p>
+                    <p>Aprennez tout ce qu'il y a à savoir sur les bases de données relationnelles</p>
+                    <button class="voir-le-cours">Voir le cours</button>
+                </div>
+                <p>
+                    Button Clicked <span 
+                    id="display">0</span> Times
+                </p>
+
+            </div>
+            <div class="disponibles-columns">
+                <div class="disponibles-column">
+                    <h2>Rejoignez les <br /> <strong>100+ passionés</strong></h2>
+                    <p>qui ont choisi d'accélérer leur apprentissage avec nos cours complets.</p>
+                </div>
+                <div class="disponibles-column">
+                    <h2>Rejoignez les <br /> <strong>100+ passionés</strong></h2>
+                    <p>qui ont choisi d'accélérer leur apprentissage avec nos cours complets.</p>
+                </div>
+                <div class="disponibles-column">
+                    <h2>Rejoignez les <br /> <strong>100+ passionés</strong></h2>
+                    <p>qui ont choisi d'accélérer leur apprentissage avec nos cours complets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="retours">
+        <div class="retours-container">
+            <h1>Les retours de nos membres</h1>
+            <button class="retours-button">Je veux tester (19,99€/mois)</button>
+            <div class="retours-cards">
+                <div class="retours-card">
+                    <img src="./assets/baby.png" alt="" class="retour-portrait">
+                    <p>""En tant que dev, mais aussi en tant que lecteur, je tiens à vous dire que les contenus sont bons, faciles à lire et agréables !"" <br><br><strong>Anonyme - Développeuse web</strong></p>
+                </div>
+                <div class="retours-card">
+                    <img src="./assets/baby.png" alt="" class="retour-portrait">
+                <p>
+                    "Merci pour vos contenus qui sont très intéressants et qui permettent aux novices comme moi d'en apprendre toujours plus."<br><br><strong>Samir B.H. - Développeur web</strong></p>
+                </div>
+                <div class="retours-card">
+                    <img src="./assets/baby.png" alt="" class="retour-portrait">
+                    <p>"Un petit mot pour vous remercier, sans vos contenus, je n’aurai pas décroché mon premier poste en tant que junior."<br><br><strong>Aurore L. - Développeuse junior</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="faq-container">
+            <h1>Foire aux questions</h1>
+            <div class="faq-question">
+                <h2>La qualité des cours est-elle équivalente à celles d'autres écoles de code ?
+                </h2>
+                <p> Oui, les cours sont écrits par des développeurs professionnels qui enseignent également dans des écoles d'informatique classiques. Il n'existe pas de meilleures preuves que les retours utilisateurs que vous pourrez lire juste au-dessus ! </p>
+            </div>
+            <div class="faq-question">
+                <h2>Si je m'abonne, aurais-je vraiment accès à tous les cours en illimité ?
+                </h2>
+                <p> Absolument, tant que vous gardez votre abonnement, vous avez accès à tous les cours disponibles, et ceux qui arriveront plus tard ! </p>
+            </div>
+            <div class="faq-question">
+                <h2>L'abonnement mensuel est-il soumis à un engagement ?
+                </h2>
+                <p> Aucun engagement, notre vision de l'éducation est qu'elle doit rester le plus accessible possible. Rien ne vous empêche de vous abonner et de vous désabonner le mois suivant ! </p>
+            </div>
+            <div class="faq-question">
+                <h2>Quel est le format des cours</h2>
+                <p>Certains cours sont à lire, d'autres à écouter. L'objectif est d'avoir tous les cours disponibles en version texte et en version vidéo le plus tôt possible ! </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <a href="#">
+        <div class="chat">
+            <img src="./assets/chat.png" alt="">
+        </div>
+    </a>
+    <footer>
+    <div class="footer-container">
+        <div class="logo">
+            <img src="./assets/coding-white.png" alt="Logo de myBlog.">
+            <h1>&lt;myBlog&gt;</h1>
+        </div>
+        <div class="footer-lists">
+            <ul class="footer-cgu">
+                <li>Mentions légales</li>
+                <li>Conditions générales de vente</li>
+                <li>A propos</li>
+                <li>Nous contacter</li>
+            </ul>
+            <ul class="sommaire">
+                <li>Les 4 axes d'apprentissage d'un dev</li>
+                <li>Les outils pour visualiser du JSON en graphe</li>
+                <li>Préparer les tâches pour intégrer un dev junior</li>
+                <li>Préparer une pizza au nutella supplément ananas</li>
+            </ul>
+        </div>
+        <div class="footer-follow">
+            <div class="footer-networks">
+                <img src="./assets/youtube.png" alt="">
+                <img src="./assets/twitter.png" alt="">
+                <img src="./assets/linkedin.png" alt="">
+                <img src="./assets/twitch.png" alt="">
+            </div>
+            <div class="newsletter">
+                    <label for="nl-email">&nbsp;S'abonner à la newsletter</label>
+                <div class="newsletter-input">
+                    <input name="nl-email" id="nl-email" type="email" placeholder="   Email">
+                    <button class="button-newsletter">S'inscrire</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
